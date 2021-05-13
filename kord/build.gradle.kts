@@ -11,10 +11,10 @@ repositories {
 }
 
 dependencies {
-    implementation(project(":core"))
+    api(project(":core"))
     implementation(kotlin("stdlib"))
 
-    implementation("com.gitlab.kordlib.kord", "kord-core", "0.6.10")
+    api("com.gitlab.kordlib.kord", "kord-core", "0.6.10")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
